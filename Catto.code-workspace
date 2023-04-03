@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../nextjsfun/nextjsfun"
+		},
+		{
+			"path": "../../cattoNextJsSuperFun"
 		}
 	],
 	"settings": {}

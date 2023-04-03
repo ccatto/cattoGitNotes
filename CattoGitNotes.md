@@ -83,7 +83,7 @@ https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-acc
     # some ASCII art 
     git log --graph --oneline --decorate --all
 
-    # search - need beter examles for this flag
+    # search - need better examples for this flag
     git log -S 
 
     git log --all --simplify-by-decoration
@@ -102,7 +102,7 @@ https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-acc
 
 * `git rebase` is important; 
 
-* `git status -f" the flag is the current flag assosiated with the command; 
+* `git status -f" the flag is the current flag associated with the command; 
 
 * the next command is the forward thinking of the physical badge; 
 
@@ -180,7 +180,7 @@ https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-acc
 
 ````
     git add . # adds all files
-    git add fileName # addes just the 1 file named "fileName"
+    git add fileName # adds just the 1 file named "fileName"
     git add -A # I think this adds all & untracked need a bit more research on this flag; I usually use `git add .` not sure difference; 
 ````
 
@@ -219,8 +219,8 @@ https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-acc
 * git fetch origin 
 * git log -- NO changes yet
 * git log on origin/master has the readme.md file updated; 
-* git merge from origin/master to my current bracnch masXXXX master 
-* git log it's tjere it's fast forward; 
+* git merge from origin/master to my current branch masXXXX master 
+* git log it's there it's fast forward; 
 * next;
 
 
@@ -285,7 +285,7 @@ After git commit -amend
 
 Then control + o to save the control x to exit
 
-In GitHub web browser the branch is slelected was wrong. 
+In GitHub web browser the branch is selected was wrong. 
 ````
 
 
@@ -351,10 +351,10 @@ noop
     git rebase upstream/develop
 ````
 
-## Replace local branch wiht remote branch 
+## Replace local branch with remote branch 
 
-* What happend was I commited to my develop branch by mistake then was stuck & wanted to make my local just like my fork branch develop which was just like the trunk develop
-* Here is a possible 3 steps that deletes it then fetchs:
+* What happened was I committed to my develop branch by mistake then was stuck & wanted to make my local just like my fork branch develop which was just like the trunk develop
+* Here is a possible 3 steps that deletes it then fetches:
 
 1. Delete your local branch: git branch -D develop
 2. Fetch the latest remote branch: git fetch origin develop
@@ -387,8 +387,8 @@ git rebase -i upstream/develop
    origin	git@github.com:NewellBrands/ecom-commercecloud.git (push)
 ````
 
-* git remote -v diplays the origin's 
-* what we need to do somethmes is to set the remote to the develop branch;
+* git remote -v displays the origin's 
+* what we need to do sometimes is to set the remote to the develop branch;
 
 ````
     $ git remote add upstream [Upstream git URL]
